@@ -50,7 +50,7 @@ This project is a decentralized application (dApp) built using the ENS (Ethereum
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ens-dapp.git
+   https://github.com/Egnoel/ENS_dapp.git
    ```
 
 2. Navigate into the project directory:
