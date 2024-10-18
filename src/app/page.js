@@ -18,6 +18,8 @@ export default function Home() {
   console.log(ensName.data);
   //will be undefined if the user doesn't have an ens name
 
+  const clientId = process.env.PROJECT_ID;
+
   //the useEffect below will change our ens variable's value to whatever is returned by the useEnsName() hook.
   useEffect(() => {
     setEns(ensName.data);
@@ -43,7 +45,7 @@ export default function Home() {
           ) : (
             <ConnectButton
               rainbowSDKConfig={{
-                clientId: '7409aa5d5925741aafef78f1db2d6dfa',
+                clientId: clientId,
                 redirectUri: 'http://localhost:3000',
                 scope: ['accounts.read'],
               }}

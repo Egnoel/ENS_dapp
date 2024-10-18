@@ -20,10 +20,11 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { WagmiProvider } from 'wagmi';
 
 const { wallets } = getDefaultWallets();
+const clientId = process.env.PROJECT_ID;
 
 export const config = getDefaultConfig({
   appName: 'ENS dapp',
-  projectId: '7409aa5d5925741aafef78f1db2d6dfa',
+  projectId: `${clientId}`,
   // the above value needs to be replaced
   wallets: [
     ...wallets,
