@@ -1,6 +1,9 @@
 # ENS dApp
 
 This project is a decentralized application (dApp) built using the ENS (Ethereum Name Service) to display and interact with ENS names associated with wallet addresses. It connects to the Ethereum Sepolia testnet and allows users to view their ENS names (if available) or their wallet addresses if they do not have an ENS name. The dApp is integrated with **RainbowKit** to handle wallet connections and **Wagmi** to manage Ethereum interactions.
+[live](https://ens-dapp-tau.vercel.app/)
+![Screenshot 2025-03-12 at 15-03-53 ENS dApp](https://github.com/user-attachments/assets/91165d49-f458-47c3-b5fb-897112c6301f)
+
 
 ## Features
 
